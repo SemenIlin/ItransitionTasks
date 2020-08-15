@@ -5,7 +5,7 @@ namespace ItransitionTask3
     class Program : Randomizer
     {
         static void Main(string[] args)
-        {
+        {            
             Console.OutputEncoding = System.Text.Encoding.UTF8;
             Random random = new Random();
             try

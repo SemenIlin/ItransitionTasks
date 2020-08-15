@@ -29,7 +29,7 @@ namespace ItransitionTask3
                     initials = new InitialsBe();
                     address = new AddressBe();
                     break;
-                case "en_Us":
+                case "en_US":
                 case "en":
                     initials = new InitialsEn();
                     address = new AddressEn();
