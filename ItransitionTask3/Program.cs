@@ -30,20 +30,20 @@ namespace ItransitionTask3
                     Generator generator = new Generator(errors);
                     people[i] = generator.GetGeneratePerson(locale, isMan);
                 }
-                foreach (var item in people)
-                {
-                    Console.WriteLine(item.FirstName);
-                    Console.WriteLine(item.LastName);
-                    Console.WriteLine(item.Patronymic + ";");
-                    Console.WriteLine(item.ZipCode);
-                    Console.WriteLine(item.Country);
-                    Console.WriteLine(item.City);
-                    Console.WriteLine(item.Street);
-                    Console.WriteLine(item.NumberHome);
-                    Console.WriteLine(item.NumberFlat + ";");
-                    Console.WriteLine(item.Phone);
-                    Console.WriteLine();
-                }
+                //foreach (var item in people)
+                //{
+                //    Console.WriteLine(item.FirstName);
+                //    Console.WriteLine(item.LastName);
+                //    Console.WriteLine(item.Patronymic + ";");
+                //    Console.WriteLine(item.ZipCode);
+                //    Console.WriteLine(item.Country);
+                //    Console.WriteLine(item.City);
+                //    Console.WriteLine(item.Street);
+                //    Console.WriteLine(item.NumberHome);
+                //    Console.WriteLine(item.NumberFlat + ";");
+                //    Console.WriteLine(item.Phone);
+                //    Console.WriteLine();
+                //}
             }
             catch(ArgumentException ex)
             {
