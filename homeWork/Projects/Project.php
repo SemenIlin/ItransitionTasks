@@ -2,7 +2,7 @@
 
 
 
-class Project implements IProject
+class Project implements ProjectInterface
 {
     private array $arrayEmployees = array();
     private float $totalCost = 0;

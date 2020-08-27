@@ -2,7 +2,7 @@
 
 require 'Payment/PaymentTrait.php';
 
-class FixedRate implements ITypePayment
+class FixedRate implements PaymentTypeInterface
 {
     use PaymentTrait;
 }

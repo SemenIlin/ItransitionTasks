@@ -3,9 +3,9 @@
 
 trait EmployeeTrait
 {
-    private ITypePayment $typePayment;
+    private PaymentTypeInterface $typePayment;
 
-    public function  __construct(ITypePayment $payment, string $firstName, string $lastName, string $patronymic)
+    public function  __construct(PaymentTypeInterface $payment, string $firstName, string $lastName, string $patronymic)
     {
         parent::__construct($firstName, $lastName, $patronymic);
         $this->typePayment = $payment;

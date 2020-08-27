@@ -7,11 +7,11 @@ function proj()
 	require_once ('Employees/MiddleDeveloper.php');
 	require_once ('Employees/Imposer.php');
 		   
-	require_once ('Payment/ITypePayment.php');
+	require_once ('Payment/PaymentTypeInterface.php');
 	require_once ('Payment/FixedRate.php');
 	require_once ('Payment/HourlyRate.php');
 		   
-	require_once ('Projects/IProject.php');
+	require_once ('Projects/ProjectInterface.php');
 	require_once ('Projects/Project.php');
 	
 	

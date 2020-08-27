@@ -1,7 +1,7 @@
 <?php
 
 
-class HourlyRate implements ITypePayment
+class HourlyRate implements PaymentTypeInterface
 {
     private float $amountOfPayment;
     private float $quantityHours;

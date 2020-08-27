@@ -1,7 +1,7 @@
 <?php
 
 
-interface IProject
+interface ProjectInterface
 {
     public function addEmployee(Employee $employee) : void;
 
